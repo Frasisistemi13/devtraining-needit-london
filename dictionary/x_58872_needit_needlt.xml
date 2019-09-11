@@ -5,7 +5,7 @@
         <element label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
         <element label="Pippo icona" max_length="100" name="u_icon_1" type="icon"/>
         <element label="New field 3" max_length="40" name="u_new_field_3" type="integer"/>
-        <element label="Request for" mandatory="true" max_length="32" name="u_request_for" reference="sys_user" type="reference"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_request_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resouces" sequence="0" value="hr"/>
